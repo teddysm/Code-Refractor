@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* set background color for the whole page */
 body {
     background-color: #d9dcd6;
 }
 
+/* style the header with font, font color, background color and give it padding */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,12 +17,17 @@ body {
     color: #ffffff;
 }
 
+/* set the font size and color of the h1 element and make it display incline */
 .header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
+/* 
+    set padding and margin of the nav bar
+    set font style and size
+*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -29,20 +36,27 @@ body {
     font-size: 20px;
 }
 
+/* make nav bar list not indented but inline, set margin */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* set text color to all link (a) element and no underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* set default font size to all paragraph (p) element */
 p {
     font-size: 16px;
 }
 
+/* 
+    set size of image
+    set margin, position and link to image
+*/
 .hero {
     height: 800px;
     width: 100%;
@@ -52,22 +66,30 @@ p {
     background-position: center;
 }
 
+/* make the content float to the left and give it a margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* make the content float to the right and give it a margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* give content width and margin and display it inline */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* 
+    set margin and padding for this class
+    set float orientation and size
+    set font family and background color
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -79,22 +101,26 @@ p {
     background-color: #2589bd;
 }
 
+/* set bottom margin and text color for this class */
 .benefit{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* make all h3 element of benefit class align to the center and give them a bottom margin */
 .benefit h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* make all img element of benefit class display in block and give it margin and max width*/
 .benefit img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* set bottom margin, padding, height, font, font color and background color for this class */
 .content-boxes{
     margin-bottom: 20px;
     padding: 50px;
@@ -104,15 +130,18 @@ p {
     color: #ffffff;
 }
 
+/* set max height for all img elements in content-boxes class */
 .content-boxes img {
     max-height: 200px;
 }
 
+/* set bottom margin and font size for all h2 elements in content-boxes class */
 .content-boxes h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* set padding, font and align the text center */
 footer {
     padding: 30px;
     clear: both;
@@ -120,6 +149,7 @@ footer {
     text-align: center;
 }
 
+/* set font size for all h2 elements in footer class */
 footer h2 {
     font-size: 20px;
 }
