@@ -10,8 +10,8 @@
 ## Table of Contents (Optional)
 
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
 
 
 ## Usage
@@ -19,14 +19,26 @@
 ![Screenshot](../Assets/01-html-css-git-homework-demo.png)
 
 
-## Features
+## User Story
 
-If your project has a lot of features, list them here.
+```
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+```
 
-## How to Contribute
+## Acceptance Criteria
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+```
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the icon and image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+```
